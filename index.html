@@ -1,11 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Airlines!!</title>
     <link rel="stylesheet" href="./style.css">
-  </head>
-  <body>
-
-  </body>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="flex justify-between header pl-8 pt-5 pr-20 pb-5 border-b-2 border-gray-700">
+        <h1 class="text-3xl font-bold">PUERTO RICO AIRLINES</h1>
+        <nav class="gap-5 flex">
+            <button class="p-4 text-white text-xl btn">Home</button>
+            <button class="p-4 text-white text-xl btn">Flights</button>
+            <button class="p-4 text-white text-xl btn">Support</button>
+            <button class="p-4 text-white text-xl btn">Login</button>
+        </nav>
+    </div>
+    <div class="flex flex-col lg:flex-row justify-evenly my-5 gap-5 items-center">
+        <div class="bg-white p-5 border-2 border-gray-700 flex flex-col items-center gap-4 lg:w-1/5 w-11/12 shadow-2xl">
+            <h2 class="font-bold text-xl">Flights</h2>
+            <p class="h-36">Come check out our sweet flights! Direct flights available daily!</p>
+            <button class="btn border-2 border-gray-700 text-white w-full p-4 text-xl">Let's Go</button>
+        </div>
+        <div class="bg-white p-5 border-2 border-gray-700 flex flex-col items-center gap-4 lg:w-1/5 w-11/12 shadow-2xl">
+            <h2 class="font-bold text-xl">Group Trips</h2>
+            <p class="h-36">We offer great group rates! For families with 4 members to huge gatherings with 50+!</p>
+            <button class="btn border-2 border-gray-700 text-white w-full p-4 text-xl">Group Rates</button>
+        </div>
+        <div class="bg-white p-5 border-2 border-gray-700 flex flex-col items-center gap-4 lg:w-1/5 w-11/12 shadow-2xl">
+            <h2 class="font-bold text-xl">Discount Flights</h2>
+            <p class="h-36">Discount flights available for individuals! Single chair filler tickets for low rates!</p>
+            <button class="btn border-2 border-gray-700 text-white w-full p-4 text-xl">Jump in</button>
+        </div>
+    </div>
+    <div class="bg-white p-5 border-2 border-gray-700 flex flex-col items-center gap-4 w-11/12 mx-auto shadow-2xl">
+        <h2 class="font-bold text-xl">About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <button class="btn border-2 border-gray-700 text-white w-full p-4 text-xl">Learn More</button>
+    </div>
+</body>
 </html>
